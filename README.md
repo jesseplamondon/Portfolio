@@ -7,7 +7,7 @@ Dive into my data gathering and analysis capabilities through a project that ide
 ## 2. [Data Engineering](/Data_Engineering)
 Explore my data engineering skills with a project dedicated to characterizing NHL prospects. I've developed a model that goes beyond traditional metrics, focusing on qualities like drive, determination, and competitiveness. This model predicts prospects who are likely to outperform their draft position, especially beneficial for later round draft picks.
 
-## 3. [End-to-End Data Science](/End-To-End)
+## 3. [End-to-End Data Science](/End_To_End)
 Experience my end-to-end data science skills in a project that leverages early Covid-19 patient data. I've explored mortality rates across various age groups and assessed the virus's impact on different populations. I've even presented my findings to a diverse audience, including both technical and non-technical individuals. Check out the linked presentation in the project's README for a detailed overview.
 
 ## 4. [Web Development](/Web_Development)

@@ -1,8 +1,48 @@
-# 2022_NHL_Shots_Project
-- In this project I created a model of the quality of all shots taken in the 2022-23 NHL regular season and determined, for each goalie, their save percentage above the average for each shot quality group (sq).
-- From these Save Percentages Above Average per Shot Quality (SPAAsq) I determined each goalie's Goals Saved Above Average (GSAA) per shot quality group, and from there, their overall GSAA; the result has been output to "goalies_GSAA.csv". This csv file can be used to precisely determine the value each goalie brings to their team, as well as if the goalie's value is being propped up by low percentage shots resulting from strong defensive play/structure by their teammates. This data can additionally be used to determine the best shot locations against opposition goaltenders, as well as areas of improvement/emphasis for goalies/team defensive structures.
-- Based on this model, the function "get_GSAR_by_names(df, averages, name1, name2)" returns the GSAA of the goalie with name2 over the goalie with name1, based on the exact shots that goalie1 faced in the season (i.e. GSAA if goalie1 were replaced with goalie2).
-- By using the get_goalie_SPAAsq (to determine specific save percentages in shot quality areas without involving shot volumes) and get_all_GSAA (to evaluate goalie performance based on all of the shots faced in the season) the model gives a variety of tools for evaluating the factors that affect goalie performance and determining the impact of each goalie on their team's success.
-- Based on the metrics and tools outlined above, I evaluated each goalie's Value per Million (i.e. the value a goalie is providing for their team based on their salary, GSAA and games played), and used this metric to evaluate and compare the value/cap efficiency of each team's goalie tandem from the 2022-23 season. This was primarily done to evaluate the relationship between a team's tandem efficiency/value and their playoff success, which did not possess any strong correlation for the 2022-23 season & 2023 playoffs; their was a weak negative correlation where a worse cap efficiency & tandem value correlated with greater team playoff success in several cases.
-- Additionally, a test of the model and functions was conducted via comparing the performance of Andrei Vasilevskiy on the shots faced by Brian Elliott in the 2022-23 season (i.e. how Vasilevskiy would have theoretically fared - physical constraints not withstanding - had he played all of the games that Elliott played and faced the same shots).
-- In the future, this model could be further improved by modelling more seasons/players, to refine the shot quality groups and goalie evaluations, as well as by evaluating the shot takers and their associated goal scoring averages with different shot quality areas (e.g. a goalie should not be penalized as greatly for surrendering a goal to a player such as Draisaitl or Pastrnak from shot group 3 or 4, which could noticeably impact goalies in the same division).
+## Project Overview
+
+In this project, a comprehensive model has been developed to evaluate shot quality, goalie performance, and the value each goalie brings to their team. The primary output is the "goalies_GSAA.csv" file, containing metrics such as Save Percentages Above Average per Shot Quality (SPAAsq) and Goals Saved Above Average (GSAA) for each goalie.
+
+## Key Features
+
+- **Shot Quality Modeling:** Creating a model to assess the quality of shots in the 2022-23 NHL season.
+- **Goalie Performance Metrics:** Calculating Save Percentages Above Average, Goals Saved Above Average, and overall GSAA.
+- **Team Evaluation:** Determining the value and cap efficiency of each team's goalie tandem.
+- **Comparative Analysis:** Evaluating goalie performance by comparing the impact of different goalies on the same shots faced.
+
+## Functions and Tools
+
+The project includes several functions and tools:
+
+- `get_GSAR_by_names(df, averages, name1, name2)`: Compares the GSAA of two goalies based on the shots faced by goalie1.
+- `get_goalie_SPAAsq`: Determines specific save percentages in shot quality areas.
+- `get_all_GSAA`: Evaluates goalie performance based on all shots faced in the season.
+
+## Value per Million Evaluation
+
+The model assesses each goalie's Value per Million, providing insights into the value a goalie brings to their team based on salary, GSAA, and games played. This metric is used to evaluate and compare the value/cap efficiency of each team's goalie tandem from the 2022-23 season.
+
+## Model Testing
+
+A thorough test of the model and functions was conducted by comparing the performance of Andrei Vasilevskiy on shots faced by Brian Elliott in the 2022-23 season.
+
+## Future Improvements
+
+This model can be further enhanced by incorporating data from additional seasons/players to refine shot quality groups and goalie evaluations. Future improvements could also include evaluating shot takers and their associated goal-scoring averages with different shot quality areas.
+
+## Technologies Used
+
+- **Python:** Leveraged for data analysis and processing.
+
+## Getting Started
+
+To explore the project:
+
+1. Clone the repository: `git clone https://github.com/your-username/nhl-prospects.git]ttps://github.com/jesseplamondon/Portfolio.git`
+2. Navigate to the project directory: `cd Data_Analysis`
+3. Dive into the code and model: Open the project with your preferred Python environment.
+
+## License
+
+This project is licensed under the MIT License. For detailed information, refer to the [LICENSE](LICENSE) file.
+
+

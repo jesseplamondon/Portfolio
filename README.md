@@ -1,7 +1,7 @@
 # Portfolo
 In this repository, I have compiled four distinct projects highlighting my expertise in data science and software development.
 
-## 1. [Data Analysis](/Data_Analysis)
+## 1. [Data Analysis](https://github.com/jesseplamondon/Portfolio/tree/main/Data_Analysis)
 Dive into my data gathering and analysis capabilities through a project that identifies regions of increasing shot quality based on 2022 NHL shot statistics. Discover how I used this model to evaluate the effectiveness of NHL goalies and goalie tandems across different shot quality groups. The applications extend to determining the cap efficiency of teams concerning their goaltending strategies.
 
 ## 2. [Data Engineering](/Data_Engineering)
